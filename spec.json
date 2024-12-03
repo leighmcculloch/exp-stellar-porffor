@@ -1,0 +1,31 @@
+{
+    "function_v0": {
+        "doc": "Return the smallest of a or b",
+        "name": "min",
+        "inputs": [
+            {
+                "doc": "",
+                "name": "a",
+                "type_": "i32"
+            },
+            {
+                "doc": "",
+                "name": "a_unused",
+                "type_": "void"
+            },
+            {
+                "doc": "",
+                "name": "b",
+                "type_": "i32"
+            },
+            {
+                "doc": "",
+                "name": "b_unused",
+                "type_": "void"
+            }
+        ],
+        "outputs": [
+            "i32"
+        ]
+    }
+}
