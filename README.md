@@ -75,3 +75,7 @@ make deploy
 > [!CAUTION]
 > Deploy will fail with the following error because Soroban does not support the `multi-value` Wasm feature, but all exported functions are multi-value with porffor.
 > > Module(Parser(BinaryReaderError { inner: BinaryReaderErrorInner { message: "func type returns multiple values but the multi-value feature is not enabled", offset: 14, needed_hint: None } }))
+
+## Thanks
+
+Thanks to @CanadaHonk and other friendly folks in the porffor Discord server for helping this experiment get as far as it did.
