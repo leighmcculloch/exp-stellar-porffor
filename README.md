@@ -16,6 +16,9 @@ export const min = (a: number, b: number): number => {
 };
 ```
 
+> [!NOTE]
+> The use of an arrow function instead of a regular function is necessary to get porffor to avoid adding `this`, `this#type`, `newtarget`, and `newtarget#type` parameters to the exported function.
+
 ## Dependencies
 
 - [`porffor`] – Compiles the TypeScript to Wasm. (Version `0.50.12`)
